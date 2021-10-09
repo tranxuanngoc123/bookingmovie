@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserHistory } from "history";
 import { Router, Switch } from "react-router-dom";
 import { HomeTemplate } from "./containers/HomeTemplate/HomeTemplate";
-import Home from "./containers/HomeTemplate/NameFilm/Home";
+import Home from "./containers/HomeTemplate/Layout/NameFilm/Home";
 
 export const history = createBrowserHistory();
 function App() {

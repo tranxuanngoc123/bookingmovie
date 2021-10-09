@@ -133,9 +133,10 @@ export default function New() {
         </div>
       </div>
       <button
+        className="btn btn-light"
         type="button"
         style={{
-          backgroundColor: "",
+          color: "red",
           marginLeft: "auto",
           marginRight: "auto",
           display: "block",
